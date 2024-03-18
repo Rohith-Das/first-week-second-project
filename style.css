@@ -1,0 +1,915 @@
+@font-face {
+    font-family: FuturaLT-Bold;
+    src: url(FuturaLT-Bold.ttf);
+}
+
+@font-face {
+    font-family: FuturaLT-Book;
+    src: url(FuturaLT-Book.ttf);
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.first-head-div {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(205, 211, 211);
+}
+
+.head-img {
+    display: flex;
+    height: 18px;
+
+    padding-left: 92px;
+    margin-right: 30px;
+    padding-top: 7px;
+}
+
+.second-head {
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    display: flex;
+
+}
+
+.second-head-logo {
+    height: 41px;
+    width: 170px;
+    margin-top: 25px;
+    margin-right: 92px;
+}
+
+.navbar-text ul {
+    display: flex;
+    list-style: none;
+    margin-left: 537px;
+    padding-top: 38px;
+    padding-top: 38px;
+
+
+}
+
+.navbar-text a {
+    font-family: FuturaLT-Book;
+    text-decoration: none;
+    padding-right: 40px;
+    color: rgb(23, 23, 51);
+    font-size: 17px;
+
+}
+
+.span-div {
+    margin-top: -8px;
+}
+
+.navbar-text span {
+    padding-right: 40px;
+    font-weight: 300px;
+    font-size: 30px;
+
+    color: rgb(23, 23, 51);
+}
+
+.button1 {
+    margin-right: 43px;
+    padding-left: 10px;
+    height: 6px;
+    width: 40px;
+    background-color: #fff;
+    border: none;
+}
+
+.button2 {
+    margin-right: 43px;
+    padding-left: 10px;
+    height: 6px;
+    width: 45px;
+    background-color: #fff;
+    border: none;
+}
+
+.button3 {
+    margin-right: 43px;
+    padding-left: 10px;
+    height: 5px;
+    width: 90px;
+    background-color: #fff;
+    border: none;
+}
+
+.button-div {
+
+    margin-left: 540px;
+
+}
+
+.button1:hover {
+    background-color: rgb(23, 23, 51);
+    ;
+}
+
+.button2:hover {
+    background-color: rgb(23, 23, 51);
+    ;
+}
+
+.button3:hover {
+    background-color: rgb(23, 23, 51);
+    ;
+}
+
+.banner1-edits {
+    width: 100%;
+}
+
+.banner1 {
+    position: absolute;
+
+}
+
+.much {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 190px;
+
+}
+
+.much-img {
+    height: 47px;
+    width: 199px;
+    margin-top: 168px;
+    margin-left: 94px;
+}
+
+.much h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 94px;
+    padding-top: 35px;
+    font-size: 55px;
+    padding-bottom: 40px;
+
+
+}
+
+.learnmore-but {
+    margin-left: 96px;
+}
+
+.learnmore-div {
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+    display: flex;
+
+}
+
+.learnmore-div:hover {
+    color: #242455;
+    background-color: #fff;
+}
+
+.learnmore-text {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 18px;
+    font-family: FuturaLT-Bold;
+
+}
+
+#span-one {
+
+    width: 6px;
+    padding-top: 6px;
+    padding-right: 5px;
+}
+
+#span-two {
+    padding-top: 6px;
+    padding-right: 5px;
+    width: 6px;
+}
+
+#span-three {
+    padding-right: 5px;
+    padding-top: 6px;
+    width: 6px;
+}
+
+/* banner2 */
+.banner2img {
+    width: 100%;
+
+}
+
+.banner2 {
+    position: absolute;
+}
+
+.banner2-text-div {
+    margin-top: 450px;
+    margin-left: 719px;
+    width: 438px;
+    height: 127px;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+#banner2-text1 {
+    padding-bottom: 20px;
+    font-family: FuturaLT-Bold;
+    color: #242455;
+    font-size: 37px;
+}
+
+#banner2-text2 {
+    font-family: FuturaLT-Book;
+    color: #262641;
+    font-size: large;
+}
+
+/* expolre button */
+.explore-but {
+    margin-top: 30px;
+}
+
+.explore-div {
+    
+    height: 40px;
+    width: 200px;
+    color: #242455;
+    background-color: #fff;
+    font-family: FuturaLT-Bold;
+    border-color: #242455;
+   
+
+
+}
+
+.explore-div:hover {
+    color: #fff;
+    background-color: #242455;
+
+
+}
+
+.explore-text {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#explore-arrow-1 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+#explore-arrow-2 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+#explore-arrow-3 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+#banner3-id {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.banner3logo {
+    position: relative;
+    z-index: 2;
+    margin-left: 293px;
+
+}
+
+#guardlogo {
+    padding-top: 38px;
+    margin-left: 292px;
+    height: 64px;
+    width: 176px;
+    padding-bottom: 40px;
+
+}
+
+.banner3-text {
+    width: 700px;
+    height: 80px;
+    padding-bottom: 300px;
+    margin-left: 100px;
+
+}
+
+.guard3text,
+h1 {
+    color: #fff;
+    font-family: FuturaLT-Bold;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.gurd3text2,
+p {
+    font-family: FuturaLT-Book;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.explore2-div {
+    height: 40px;
+    width: 170px;
+    color: #fff;
+ border: 1px solid;
+    font-family: FuturaLT-Bold;
+    border-color: #fff;
+    display: flex;
+    background: none;
+
+
+}
+
+.explore2-but {
+    margin-left: 170px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+.banner3-text button {
+    background-color: transparent;
+    background: none;
+    border-color: #fff;
+}
+
+.explore2-div:hover {
+    color: #242455;
+    background-color: white;
+
+
+}
+
+.explore2-text {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 18px;
+    font-family: FuturaLT-Bold;
+
+}
+
+#exp2-span1 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+#exp2-span2 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+#exp2-span3 {
+    width: 10px;
+    padding-top: 7px;
+
+}
+
+.lrn-som-new {
+    margin-left: 90px;
+}
+
+
+
+
+.one-img-div {
+   
+    position: relative;
+    width: 370px;
+    height: 400px;
+    margin-left: 90px;
+    padding-right: 30px;
+}
+
+.first-img {
+    width: 370px;
+    height: 400px;
+    
+    
+}
+
+.first-img-text {
+    
+    position: absolute;
+
+}
+
+.three-img {
+    margin-top: 30px;
+    display: flex;
+margin-bottom: 130px;
+    width: 100%;
+}
+
+.two-img-div {
+    
+    position: relative;
+    width: 370px;
+    height: 400px;
+    padding-right: 30px;
+
+}
+
+.second-img {
+
+    width: 370px;
+    height: 400px;
+}
+
+.second-img-text {
+    /* position: relative; */
+    position: absolute;
+
+}
+
+.last-img {
+    width: 370px;
+    height: 400px;
+}
+.three-img-div{
+    position: relative;
+}
+.third-img-text{
+    position: absolute;
+
+}
+.styling-class{
+    margin-top: 340px;
+    margin-left: 120px;
+    color: #fff;
+    font-size: 28px;
+    font-family: FuturaLT-Bold;
+}
+.facial-class{
+    margin-top: 340px;
+    margin-left: 500px;
+    color: #fff;
+    font-size: 28px;
+    font-family: FuturaLT-Bold;
+   
+}
+.body-shaving{
+    margin-top: 320px;   
+    margin-left: 900px;
+    color: #fff;
+    font-family: FuturaLT-Bold;
+    font-size: 25px;
+    
+}
+
+.right-arrow-butt{
+    position: relative;
+    right: 20px;
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin-top: 150px;
+   
+    color: #242455;
+    border-color: transparent;
+}
+#arrow-id{
+    padding-left: 10px;
+    padding-top: 9px
+}
+
+.right-arrow-butt2{
+    position: relative;
+    right: 20px;
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin-top: 280px;
+   
+    color: #242455;
+    border-color: transparent;
+
+}
+#arrow-id2{
+    padding-left: 10px;
+    padding-top: 9px
+}
+.right-arrow-butt2:hover{
+    color:#fff ;
+    background-color: #242455;
+
+}
+
+.right-arrow-butt:hover{
+    color:#fff ;
+    background-color: #242455;
+
+}
+.h1-our-product{
+    font-size: 39px;
+    color: #242455;
+    margin-left: 90px;
+    font-family: FuturaLT-Bold;
+    padding-top: 60px;
+}
+.main-ourproduct{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(234, 234, 236, 0.776);
+    display: flex;
+    position: absolute;
+    
+}
+.op-text {
+    position: relative;
+}
+
+.our-product-img1 {
+    margin-top: 80px;
+    position: relative;
+    margin-left: 79px;
+
+    width: 380;
+    height: 400px;
+    background-color: #fff;
+}
+
+#op-1-img {
+    padding-right: 20px;
+    width: 380px;
+
+    padding-left: 20px;
+}
+.h2-much{
+    color: #242455;
+    font-family: FuturaLT-Bold;
+    padding-left: 55px;
+}
+.our-product-img2 {
+    margin-top: 80px;
+    position: relative;
+    width: 380;
+    height: 400px;
+    background-color: #fff;
+}
+
+#op-2-img {
+    width: 380px;
+    padding-right: 20px;
+}
+.h2-guard3{
+    color: #242455;
+    font-family: FuturaLT-Bold;
+    padding-left: 40px;
+}
+.our-product-img3 {
+    margin-top: 80px;
+    position: relative;
+    width: 380;
+    height: 400px;
+    background-color: #fff;
+}
+
+#op-3-img {
+
+    width: 380px;
+
+}
+.h2-fusion{
+    color: #242455;
+    font-family: FuturaLT-Bold;
+    padding-left: 40px;
+}
+#id-social-com{
+    font-family: FuturaLT-Bold;
+    color: #242455;
+    font-size: 36px;
+}
+.so-commit {
+    width: 800px;
+    height: 90px;
+    margin-left: 80px;
+    padding-top: 650px;
+
+}
+
+.so-co-img {
+    margin-left: 60px;
+    display: flex;
+}
+
+.com-img {
+    width: 370px;
+    height: 330px;
+    margin-left: 30px;
+}
+
+.master-com-text {
+    display: flex;
+    margin-left: 70px;
+}
+
+.com-text1 {
+    width: 380px;
+    height: 120px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 25px;
+    line-height: 29px;
+    color: #242455;
+    font-family: FuturaLT-Bold;
+
+}
+.com-text2{
+    padding-left: 20px;
+    line-height: 29px;
+    padding-top: 25px;
+    color: #242455;
+    font-family: FuturaLT-Bold;
+}
+.com-text3{
+    margin-left: 140px;
+    line-height: 29px;
+    padding-top: 25px;
+    color: #242455;
+    font-family: FuturaLT-Bold;
+}
+.shave-man{
+    display: flex;
+
+}
+.shave-man-div{
+    margin-top: 90px;
+    width: 50%;
+    display: flex;
+}
+#shave-man-img{
+    width: 100%;
+}
+#man-text{
+    font-size: 34px;
+    margin-left: 50px;
+    color: #242455;
+    font-family: FuturaLT-Bold;
+
+}
+#man-text-2{
+    margin-left: 50px;
+    line-height: normal;
+
+}
+.shaveman-text-div p{
+    color: #242455;
+font-size: 19px;
+    font-family: FuturaLT-Book;
+}
+.shaveman-text-div{
+    margin-top: 120px;
+    
+}
+.read-our-story-span-text{
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-right: 30px;
+    font-family: FuturaLT-Bold;
+   
+}
+.read-our-story-button{
+    margin-left: 50px;
+    border: 2px solid;
+    border-color: #242455;
+    margin-top: 30px;
+}
+.read-our-story-div{
+    display: flex;
+    height: 45px;
+    width: 250px;
+    background-color: #fff;
+    color: #242455;
+    border-color: #242455;
+}
+.read-our-story-div:hover{
+    background-color: #242455;
+    color: #fff;
+
+}
+#read-span1 {
+
+    width: 6px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+#read-span2 {
+
+    width: 6px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+#read-span3 {
+
+    width: 6px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.learn-footer{
+    display: flex;
+    width: 300px;
+    margin-left: 100px;
+}
+.learn-footer li{
+    color: #fff;
+    font-family: FuturaLT-Book;
+    list-style: none;
+   
+    padding-top: 15px;
+}
+.learn-footer a{
+    text-decoration: none;
+}
+.learn-footer h3{
+    color: #fff;
+    font-size: 16px;
+    font-family: FuturaLT-Bold;
+}
+.learn-footer ul{
+    margin-top: 50px;
+}
+.master-footer{
+    display: flex;
+    background-color: #242455;
+}
+.Products-By-Brand-div {
+    width: 300px;
+    margin-top: 50px;
+
+}
+.Products-By-Brand-div li{
+    color: #fff;
+    font-family: FuturaLT-Book;
+    list-style: none;
+  font-size: 15px;
+  padding-top: 15px;
+   
+}
+.Products-By-Brand-div a{
+    text-decoration: none;
+}
+.Products-By-Brand-div h3{
+    color: #fff;
+     font-family: FuturaLT-Book;
+}
+.Product-by-type-div{
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 16px;
+
+}
+.Product-by-type-div li{
+    color: #fff;
+    font-family: FuturaLT-Book;
+    list-style: none;
+  font-size: 15px;
+  padding-top: 15px;
+   
+}
+.Product-by-type-div a{
+    text-decoration: none;
+}
+.Product-by-type-div h3{
+
+    color: #fff;
+    font-family: FuturaLT-Book;
+}
+.about-gillet-div{
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 20px;
+
+}
+.about-gillet-div li{
+    color: #fff;
+    font-family: FuturaLT-Book;
+    list-style: none;
+  font-size: 15px;
+  padding-top: 15px;
+   
+}
+.about-gillet-div a{
+    text-decoration: none;
+}
+.about-gillet-div h3{
+
+    color: #fff;
+    font-family: FuturaLT-Book;
+}
+.footer-logos{
+    background-color: #242455;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-logo1{
+    width: 65px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+.footer-logo2{
+    width: 105px;
+    height: 16px;
+    cursor: pointer;
+    padding-right: 87px;
+    margin-top: 15px;
+}
+.footerfb{
+    width: 40px;
+    height: 40px;
+    padding-right: 25px;
+    
+}
+.footertw{
+    width: 40px;
+    height: 40px;
+    padding-right: 25px;
+}
+.footeryoutube{
+    width: 40px;
+    height: 40px;
+    padding-right: 87px;
+}
+.footerflage{
+    width: 40px;
+    height: 30px;
+    padding-left:530px;
+    cursor: pointer;
+    padding-right: 15px;
+   
+}
+
+
+.footer2{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    flex-wrap: wrap;
+    background-color: #242455;
+}
+.line{
+    border-bottom: 1px solid black ;
+  
+    width: 87%;
+    height: 5px;
+    margin-left: 90px;
+
+}
+.copy-write{
+    display: flex;
+    width: 100%;
+    /* height: 70px; */
+    background-color: #242455;
+    
+}
+.copy-write p{
+    color: #fff;
+    font-family: FuturaLT-Book;
+    font-size: 15px;
+    padding-right: 20px;
+
+}
+.copy-write span{
+    margin-left: 100px;
+    color: #fff;
+    font-family: FuturaLT-Book;
+    font-size: 15px;
+    padding-right: 250px;
+    margin-bottom: 40px;
+}
+.copy-write #adchoice{
+    width: 20px;
+    height: 20px;
+}
